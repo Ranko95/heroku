@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ba84e8e.chunk.css",
+    "main.js": "/static/js/main.ac6f433d.chunk.js",
+    "main.js.map": "/static/js/main.ac6f433d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8dc0443e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8dc0443e.js.map",
+    "static/js/2.3ae76d63.chunk.js": "/static/js/2.3ae76d63.chunk.js",
+    "static/js/2.3ae76d63.chunk.js.map": "/static/js/2.3ae76d63.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4811916f6c22e06b8251844fef36269a.js": "/precache-manifest.4811916f6c22e06b8251844fef36269a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7ba84e8e.chunk.css.map": "/static/css/main.7ba84e8e.chunk.css.map",
+    "static/js/2.3ae76d63.chunk.js.LICENSE.txt": "/static/js/2.3ae76d63.chunk.js.LICENSE.txt",
+    "static/media/IceBucketChallenge.mp4": "/static/media/IceBucketChallenge.a0e050b6.mp4",
+    "static/media/github.svg": "/static/media/github.ec5bc1b3.svg",
+    "static/media/logo.png": "/static/media/logo.ee2e1c0f.png",
+    "static/media/logoAuth.png": "/static/media/logoAuth.bcf6ee28.png",
+    "static/media/mailSolid.svg": "/static/media/mailSolid.46bb5905.svg",
+    "static/media/owl_logo.png": "/static/media/owl_logo.beb2fc5a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dc0443e.js",
+    "static/js/2.3ae76d63.chunk.js",
+    "static/css/main.7ba84e8e.chunk.css",
+    "static/js/main.ac6f433d.chunk.js"
+  ]
+}

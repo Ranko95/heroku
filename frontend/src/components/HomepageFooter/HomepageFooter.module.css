@@ -1,0 +1,187 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+  border-top: 1px solid #6d676e;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  padding: 20px;
+  color: #6d676e;
+}
+
+.footerSlogan {
+  max-width: 30%;
+  padding: 2px 10px;
+}
+
+.footerRights {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  max-height: 80%;
+  text-align: center;
+  line-height: 18px;
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+.footerLogo {
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.footerContact {
+  text-align: center;
+  width: 15%;
+  height: auto;
+  padding: 1rem;
+  margin-top: 5px;
+}
+
+.footerContactContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+}
+
+.footerSocial {
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.footerSocial:hover {
+  transform: scale(1.1);
+}
+
+/* Media Queries */
+
+@media (min-width: 315px) and (max-width: 480px) {
+  
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+
+  .footerContact {
+    width: auto;
+  }
+
+  .footerContactContainer {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+  }
+
+  .footerSlogan {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .footerSocial {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footerRights {
+    width: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.emailContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.emailHeader {
+  color: #6D676E;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.emailForm {
+  font-family: 'Roboto', sans-serif;
+}
+
+.emailInput {
+  border: none;
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid #6D676E;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #6D676E;
+}
+
+.emailMsg {
+  font-size: 1rem;
+  width: 300px;
+  height: 80px;
+  color: #6D676E;
+}
+
+.emailBtn {
+  width: 50%;
+  height: 10%;
+  margin-top: 10px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  border: none;
+  background: #6D676E;
+}
+
+.emailBtn:hover {
+  background-color: #96031A;
+}
+
+.emailInput:focus, .emailMsg:focus {
+  outline: none;
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .footerContainer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerSlogan {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .footerContact {
+    width: auto;
+  }
+
+  .footerRights {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footerContainer {
+    height: 15vh;
+  }
+
+  .footerContact {
+    width: auto;
+  }
+}
