@@ -36,7 +36,7 @@ module.exports = function(app) {
     })
   );
 
-  app.use(express.static(path.join(__dirname, 'build')));
+  app.use(express.static(path.join(__dirname, '..', 'build')));
 
 
   app.get('/*', (req, res) => {
