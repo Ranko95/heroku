@@ -1,0 +1,13 @@
+{
+  "name": "chal-accepted",
+  "version": "1.0.0",
+  "description": "ChalAccepted",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && npm install && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
