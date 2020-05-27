@@ -14,6 +14,13 @@ app.use('/auth', authRouter);
 app.use('/profile', profileRouter);
 app.use('/challenges', challengesRouter);
 app.use('/email', emailRouter);
-useErrorHandlers(app);
+
+
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+
+// useErrorHandlers(app);
 
 module.exports = app;
